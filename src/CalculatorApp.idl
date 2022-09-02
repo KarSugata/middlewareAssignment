@@ -1,0 +1,8 @@
+module CalculatorApp{
+    interface calculator{
+        double getSum(in double a, in double b);
+        double getDifference(in double a, in double b);
+        double getProduct(in double a, in double b);
+        double getQuotient(in double a, in double b);
+       };
+    };
